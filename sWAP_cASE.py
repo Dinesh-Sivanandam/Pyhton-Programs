@@ -4,6 +4,7 @@ def swap_case(S):
     lower = string.ascii_lowercase
     upper = string.ascii_uppercase
     
+    
 
     T = []
     for i in range(len(S)):
