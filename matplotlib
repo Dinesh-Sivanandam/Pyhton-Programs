@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+lables=["Tamil","English","Maths","Physics","Chemistry","CS"]
+usage=[79.8,67.3,77.8,68.4,70.2,88.5]
+y_positions=range(len(lables))
+plt.bar(y_positions,usage)
+plt.xticks(y_positions,lables)
+plt.xlabel("Subjects")
+plt.ylabel("Range")
+plt.title("Marks")
+plt.show()
